@@ -1,4 +1,6 @@
 # YTFlex
-Tweak to add FLEX debugging to YouTube app
+Tweak to add FLEX debugging to the YouTube app
 
-To view FLEX menu, enable it in settings
+To view the FLEX menu, enable it in settings
+
+NOTE: Works on non-JB 
