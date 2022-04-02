@@ -1,0 +1,9 @@
+Package: com.cactusutils.ytflex
+Name: YTFlex
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Option for enabling FLEX menu on YouTube
+Maintainer: Michael Winay
+Author: Michael Winay
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
