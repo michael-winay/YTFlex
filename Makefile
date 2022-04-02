@@ -13,7 +13,6 @@ ifeq ($(shell uname -s),Linux)
 EXTRA_CFLAGS += -DLINUX
 endif
 
-#fidn a way tk exlude theos from the search and make sure tweak wros
 $(TWEAK_NAME)_FILES = Tweak.xm $(shell find ./ -type f \( -iname \*.c -o -iname \*.m -o -iname \*.mm \))
 $(TWEAK_NAME)_CFLAGS = -fobjc-arc -Wno-error=deprecated-declarations $(EXTRA_CFLAGS)
 $(TWEAK_NAME)_CCFLAGS = -std=c++11
